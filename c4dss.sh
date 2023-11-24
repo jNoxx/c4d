@@ -5,7 +5,7 @@ set -Eeo pipefail
 
 # Allow users to override preset variables on command line via exports 
 #(i.e. export config_path=${HOME}/my_fav_path) before running script
-config_path=${config_path:-"${HOME}/.var/app/re.github.streetpea.Chiaki4deck/config/Chiaki"}
+config_path=${config_path:-"${HOME}/.var/app/re.chiaki.Chiaki4deck/config/Chiaki"}
 config_file=${config_file:-"${config_path}/Chiaki.conf"}
 if ! [ -f "${config_file}" ]
 then
